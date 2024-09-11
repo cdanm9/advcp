@@ -1,0 +1,13 @@
+{
+	"_version": "1.27.0",
+	"_generator": "cpkg-project-template",
+	"sap.artifact": {
+		"id": "ns.advcomp",
+		"type": "card",
+		"title": "Advanced Card",
+		"subTitle": "",
+		"artifactVersion": {
+			"version": "1.0.0"
+		}
+	}
+}

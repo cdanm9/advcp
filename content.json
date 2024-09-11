@@ -1,0 +1,20 @@
+{
+	"AdvancedRole": {   
+		"type": "role",
+		"src": {
+		  "from": "./demo/src",
+		  "content": "role.json"
+			}
+		  },
+	"po_by_plant": {  
+		"type": "card",
+		"src": {
+		  "from": "./demo/src",
+		  "path": "./",   
+		  "build": "",
+		  "package": "",
+		  "manifest": "src/manifest.json"
+		  }
+	}
+  }
+  

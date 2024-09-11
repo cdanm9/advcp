@@ -1,0 +1,50 @@
+{
+	"_version": "1.15.0",
+	"sap.app": {
+		"id": "ns.advcomp",
+		"type": "card",
+		"title": "Advanced Card",
+		"subTitle": "",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+        "deviceTypes": {"desktop": true, "phone": true, "tablet": true},
+		"icons": {
+			"icon": "sap-icon://technical-object"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "ns.advcomp.View",
+			"type": "XML",
+			"async": true,
+			"id": "app"
+		},
+		"dependencies": {
+			"minUI5Version": "1.38",
+			"libs": {
+				"sap.m": {}
+			}
+		}
+	},
+	"sap.card": {
+		"type": "Component",
+        "designtime": "dt/configuration",
+		"configuration": {
+			"parameters": {    
+				"city": {
+					"value": "Berlin"
+				}
+			}
+		},
+		"header": {
+			"title": "Visit our workshop"
+		}
+	},
+    "sap.platform.mobilecards": {
+        "compatible": false
+    }
+}

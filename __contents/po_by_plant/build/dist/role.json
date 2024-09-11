@@ -1,0 +1,15 @@
+{
+    "_version": "3.2.0",
+    "identification": {
+      "id": "ns.advcp.AdvancedRole",   
+      "title": "AdvancedRole",   
+      "entityType": "role"   
+    },
+    "payload": {
+      "apps": [
+        {
+          "id": "ns.advcomp.app"
+        }
+      ]
+    }
+  }

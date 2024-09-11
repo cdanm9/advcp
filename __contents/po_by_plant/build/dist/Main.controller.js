@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("ns.advcomp.Main",{onInit:function(){var e=this.getOwnerComponent(),t=e.card.getCombinedParameters(),n=t.city;this.byId("cityValue").setText(n)}})});
+//# sourceMappingURL=Main.controller.js.map
